@@ -2,7 +2,15 @@ from django.db import models
 import datetime as dt
 # Create your models here.
 
-class Movies(models.Model):
+class Movies:
     '''
     class to define API key request 
     '''
+    def __init__(self,id,title, overview,poster,vote_average,vote_count):
+        self.id =id
+        self.title=title
+        self.overview=overview
+        self.poster="https://image.tmdb.org/t/p/w500/" + poster
+        self.vote_average=vote_average
+        self.vote_count=vote_count
+

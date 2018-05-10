@@ -10,3 +10,4 @@ def index(request):
 @login_required(login_url='/accounts/login/')
 def movie_list(request):
     return render(request, 'movies/movies.html')
+
