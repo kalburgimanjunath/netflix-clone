@@ -6,5 +6,7 @@ from django.contrib.auth.decorators import login_required
 # Create your views here.
 def index(request):
     return render(request,'movies/index.html')
+
 @login_required(login_url='/accounts/login/')
 def movie_list(request):
+    return render(request, 'movies/movies.html')
