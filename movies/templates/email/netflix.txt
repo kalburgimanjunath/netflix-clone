@@ -1,0 +1,3 @@
+Hello {{name}}
+Welcome and enjoy The Notflix where we give you trailers and absolutely nothing else... If you want to watch movies you'll have to go to torrenting sites.
+Have fun though... PS. This is in no way associated to netflix or any other movie giving company... But it is the best alternative to the rest
